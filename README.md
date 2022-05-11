@@ -5,12 +5,13 @@ Course development for `UnpackAI`'s *Blockchain 101* course.
 `pip install bl101`
 
 # Usage
-- chose a Course Notebook and open it in `Juypter` or `Google Colab``
+- chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`
 
 # Project Organization  
 ## Branching Strategy  
 ... is `GitHub flow`  
 
+---
 ## Commit Messages  
 - 👨‍💻 = feat (a new feature)  
 - 🦟 = fix (a bug fix)
