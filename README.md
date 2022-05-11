@@ -2,18 +2,18 @@
 # bl101
 ---  
 
-# Setup
+## Setup
 `pip install bl101`
 
-# Usage
+## Usage
 - chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`
 
-# Project Organization  
-## Branching Strategy  
+## Project Organization  
+### Branching Strategy  
 ... is `GitHub flow`  
 
 ---
-## Commit Messages  
+### Commit Messages  
 - 👨‍💻 = feat (a new feature)  
 - 🦟 = fix (a bug fix)
 - 📜 = docs (changes a documentation)  
