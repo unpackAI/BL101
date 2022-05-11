@@ -1,5 +1,6 @@
-# About
-Course development for `UnpackAI`'s *Blockchain 101* course.  
+---  
+bl101
+---  
 
 # Setup
 `pip install bl101`
