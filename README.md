@@ -7,12 +7,15 @@
 
 ## Usage
 - chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`
-
+---  
 ## Project Organization  
 ### Branching Strategy  
-... is `GitHub flow`  
+No branching: only `main` branch:
+- developing  in /🏝Sandbox
+- production code in /course_notebooks
 
----
+*Switching to `GitHub flow` later, maybe ...*
+
 ### Commit Messages  
 - 👨‍💻 = feat (a new feature)  
 - 🦟 = fix (a bug fix)
