@@ -2,14 +2,14 @@ pragma solidity ^0.8.12;
 
 contract HelloWorld {
 
-string s = "Hello World from Shanghai";
+string message = "Hello World from Shanghai";
 
-  function read_message() public view returns (string memory) {
-      return s;
-      }
+    function read_message() public view returns (string memory) {
+        return message;
+    }
 
-function write_message(string calldata t) public {
-        s = t;
+    function write_message(string calldata updated_message) public {
+        message = updated_message;
     }
 
 }
