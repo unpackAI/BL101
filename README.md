@@ -3,10 +3,11 @@
 ---  
 
 ## Setup
-`pip install bl101`
+`pip install bl101==2`
 
 ## Usage
 - chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`
+- 
 ---  
 ## Project Organization  
 ### Branching Strategy  
