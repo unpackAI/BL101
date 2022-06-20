@@ -13,13 +13,15 @@ We recommend to **pin** MetaMask to your browser:
 ![Pin Metamask to Browser](images/pin_metamask.png
 )
 
->MetaMask will be your most important tool in the blockchain world. The nice thing about MetaMask: it allows you to use `testnets`. Testnets are ... which allow you to discover, play around and test your application. You can also deposit money (i.e. tokens) on your testnet. But if you want to buy a real NFT you need to use your mainnet with real `ETH` *Let's add some money to your wallet ...*
+### One word about accounts
+You can add more accounts to your wallet. *(This can be useful e.g. to learn how to transfer money between accounts.)* Every account will then be available in all your testnets and your mainnet. Every account has an account number (also called `account address`) and a `private key`. You will use both quite often. Whenever you "change" something on the blockchain (transfer money, mint NFT, etc.) you need your account address and your private key - think of them as your *name* and your *signature*.  
+The `secret key` belongs to your wallet and therefore to all your accounts. You never use it on the blockchain. *(typical usecases for your secret key is: setting up your wallet on a new computer or smart phone or browser)* 
 
 ### Add Testnet
+>MetaMask will be your most important tool in the blockchain world. The nice thing about MetaMask: it allows you to use `testnets`. Testnets are ... which allow you to discover, play around and test your application. You can also deposit money (i.e. tokens) on your testnet. But if you want to buy a real NFT you need to use your mainnet with real `ETH` *Let's add some money to your wallet ...*. This will also be explained further in the Week 1 Coursebook.
 
-### One word about accounts
-You cann add more accounts to your wallet. *(This can be useful e.g. to learn how to transfer money between accounts.)* Every account will then be available in all your testnets and your mainnet. Every account has an account number (also called `account address`) and a `private key`. You will use both quite often. Whenever you "change" something on the blockchain (transfer money, mint NFT, etc.) you need your account address and your private key - think of them as your *name* and your *signature*.  
-The `secret key` belongs to your wallet and therefore to all your accounts. You never use it on the blockchain. *(typical usecases for your secret key is: setting up your wallet on a new computer or smart phone or browser)* 
+In order to access and connect to a Testnet it needs to be added to your metamask. You can do that by clicking this link: https://umbria.network/connect/ethereum-testnet-rinkeby and press **switch network** after your metamask was prompted to open.
+
 ### Get `Ether` for your wallet
 The process for adding `ether` to your wallet depends on the testnet. 
 
