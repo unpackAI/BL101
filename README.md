@@ -3,7 +3,7 @@
 ---  
 
 ## Setup
-`pip install bl101==2`
+`pip install bl101==2.3`
 
 ## Usage
 - chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`

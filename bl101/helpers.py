@@ -1,5 +1,7 @@
 # Standard library imports
 from datetime import datetime
+from dotenv import load_dotenv
+import os
 
 # Third party imports
 #import numpy as np
@@ -8,7 +10,7 @@ from datetime import datetime
 #import plotly.graph_objs as go
 # Third party imports
 
-def test(x="Hello!"):
+def test(x="Hello unpackAI Students!!!"):
     print(x,  " Now is: ", datetime.now())
     return x
 
