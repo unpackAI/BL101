@@ -7,7 +7,7 @@
 
 ## Usage
 Choose a Course Notebook from   
-- [Week 1: Hello Blockchain](course_notebooks/Week_2_Non-fungible_Tokens(NFTs))
+- [Week 1: Hello Blockchain](course_notebooks/Week_1_Hello_Blockchain)
 
 and open it in `Juypter` or `Google Colab`
 
