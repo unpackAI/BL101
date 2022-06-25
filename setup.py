@@ -12,7 +12,7 @@ setup(name='bl101',
       packages=['bl101'],
       
       zip_safe=False,
-      install_requires=['web3', 'py-solc-x', 'eth_tester', 'python-dotenv', 'graphviz']
+      install_requires=['web3', 'py-solc-x', 'eth_tester', 'python-dotenv', 'graphviz', 'pytrends', 'seaborn']
       #install_requires=['web3', 'py-solc-x', 'eth_tester', 'yfinance', 'plotly', 'numpy', 'pandas', 'requests==2.23']
 
       )
