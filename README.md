@@ -6,8 +6,11 @@
 `pip install bl101==2.3`
 
 ## Usage
-- chose a [Course Notebook](course_notebooks) and open it in `Juypter` or `Google Colab`
-- 
+Choose a Course Notebook from   
+- [Week 1: Hello Blockchain](course_notebooks/Week_1_Hello_Blockchain)
+
+and open it in `Juypter` or `Google Colab`
+
 ---  
 ## Project Organization  
 ### Branching Strategy  
