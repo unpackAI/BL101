@@ -4,7 +4,32 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import plotly.graph_objs as go
+from datetime import datetime
 # Third party imports
+from pytrends.request import TrendReq
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+def test(x="Hello unpackAI Students!!!"):
+    print(x,  " Now is: ", datetime.now())
+    return x
+
+# Scrape Google Trends
+
+def google_trends(search_term):
+    try:
+        pytrends = TrendReq(hl='en-US', tz=360) 
+        kw_list = [search_term] # list of keywords to get data 
+        pytrends.build_payload(kw_list, cat=0, timeframe='today 12-m')
+        data = pytrends.interest_over_time() 
+        data = data.reset_index() 
+
+        # Visualize it
+        plt.figure(figsize=(18,6))
+        sns.lineplot(data=data, x = "date", y = search_term).set(title=search_term, xlabel=None, ylabel="relative importance of search term")
+        plt.show()
+    except:
+        print("Looks like connecting to Google is currently difficult - please try later!")
 
 
 def get_crypto_data(tickers='ETH-USD', plot=False, period = '22h', interval = '15m'):
