@@ -10,20 +10,19 @@
 
 ## Become familiar with MetaMask
 We recommend to **pin** MetaMask to your browser:
-![Pin Metamask to Browser](images/pin_metamask.png
-)
+![Pin Metamask to Browser](images/pin_metamask.png)
 
 ### Your Public Key
 In order to find your public key, you will have to simply click on the MetaMask browser extension and copy the public key in your wallet. Follow the image below for further clarification.
 
-<img src="https://www.dropbox.com/s/oe4d4e5c9b4hqps/PublicKey.png?dl=1" alt="publickey" width="700"/>
+<img src="https://www.dropbox.com/s/oe4d4e5c9b4hqps/PublicKey.png?raw=1" alt="publickey" width="700"/>
 
 ### Your private key
 In order to attain your private key, you will have to enter your account details and export the private key. In doing so, you will also need to provide your MetaMask password.
 
 ATTENTION: It is important to note that you should not share your private key to anyone in case you own anything of real value inside that wallet.
 
-<img src="https://www.dropbox.com/s/605myuhmn44rwnq/PrivateKey.png?dl=1" alt="privatekey" width="700"/>
+<img src="https://www.dropbox.com/s/605myuhmn44rwnq/PrivateKey.png?raw=1" alt="privatekey" width="700"/>
 
 ### One word about accounts
 You can add more accounts to your wallet. *(This can be useful e.g. to learn how to transfer money between accounts.)* Every account will then be available in all your testnets and your mainnet. Every account has an account number (also called `account address`) and a `private key`. You will use both quite often. Whenever you "change" something on the blockchain (transfer money, mint NFT, etc.) you need your account address and your private key - think of them as your *name* and your *signature*.  
