@@ -34,5 +34,5 @@
     - Cryptos as legal tender? ✅
 
 # Workbook
-- Interact with your wallet  
+- Interact with your wallet 🟡 
 - Build your own Crypto  
