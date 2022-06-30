@@ -35,4 +35,4 @@
 
 # Workbook
 - Interact with your wallet 🟡 
-- Build your own Crypto  
+- Build your own Crypto 🟡 
