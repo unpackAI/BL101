@@ -5,8 +5,8 @@
 
 # Coursebook
 - Intro to DeFi
-    - What is DeFi?
-    - Difference to traditional finance? (This is important how the experience differs from a user perspective)
+    - What is DeFi? ✅
+    - Difference to traditional finance? (This is important how the experience differs from a user perspective) ✅
 - DeFi  Application Layer
     - Tokens
         - What are Tokens? 🟡
@@ -36,3 +36,4 @@
 # Workbook
 - Interact with your wallet 🟡 
 - Build your own Crypto 🟡 
+- Interact with Uniswap protocol using your own token 🟡 
