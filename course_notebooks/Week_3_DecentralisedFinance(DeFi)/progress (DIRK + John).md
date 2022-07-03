@@ -18,7 +18,7 @@
         - Altcoin
             - Stablecoins
         
-    - Lending and Borrowing
+    - Lending and Borrowing ✅
     - Decentralised Exchanges
         - AMM
         - order book based
