@@ -3,7 +3,7 @@
 ---  
 
 ## Setup
-`pip install bl101==2.6`
+`pip install bl101==2.7`
 
 ## Usage
 Choose a Course Notebook from   
