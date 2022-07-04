@@ -8,7 +8,8 @@ from pytrends.request import TrendReq #<- for Google Trends
 import matplotlib.pyplot as plt
 import seaborn as sns
 #import numpy as np
-#import pandas as pd
+import pandas as pd
+import cryptocompare
 #import yfinance as yf
 #import plotly.graph_objs as go
 # Third party imports
@@ -32,6 +33,62 @@ def google_trends(search_term):
     except:
         print("Looks like connecting to Google is currently difficult - please try later!")
 
+
+def crypto_data(coin, days=360):
+    """Return Cryptocurrency price from CryptoCompare.com for up to 2000 days.
+
+    Args:
+        coin (str): The crypto symbol from cryptocompare.com
+        days (int): number of trading days from now (max=2000)
+
+    Returns:
+        Pandas DataFrame: table of open, close, etc. prices for the crypto
+    """
+
+    if days>2000:
+        print("Sorry! Max. 2000 days of historical data!")
+        return None
+    try:
+        coin_list = cryptocompare.get_coin_list(format=True)
+    except:
+        print("Sorry! I cannot access data from cryptocompare. Try again later!")
+        return None
+
+    if coin not in coin_list:
+        print(f"Sorry! Your coin {coin} is not listed on cryptompare.com")
+        return None
+
+    try:
+        historical_prices = cryptocompare.get_historical_price_day(coin, currency='USD', limit=days)
+    except:
+        print("Sorry! I cannot access data from cryptocompare. Try again later!")
+        return None
+    
+    price_data = {}
+
+    for item in historical_prices:
+        #print(item)
+        #convert time from timestampt to something readible for humans
+        time = datetime.fromtimestamp(item['time'])
+
+        #print(time)
+        #time will be the key for our dict
+        price_data[time] = {}
+        price_data[time]['date'] = time
+        price_data[time]['open']= item['open']
+        price_data[time]['high'] = item['high']
+        price_data[time]['low'] = item['low']
+        price_data[time]['close'] = item['close']
+
+    # put into DataFrame
+    price_DF = pd.DataFrame.from_dict(price_data)
+    price_DF = price_DF.T	
+
+    return price_DF
+
+
+
+# not using this function for now as yahoo finance takes too long for installing on google colab
 def get_crypto_data(tickers='ETH-USD', plot=False, period = '22h', interval = '15m'):
     """Return and plot Cryptocurrency price from Yahoo Finance for up to 60 days.
 
