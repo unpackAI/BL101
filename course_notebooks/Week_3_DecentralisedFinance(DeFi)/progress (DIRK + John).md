@@ -19,12 +19,12 @@
             - Stablecoins
         
     - Lending and Borrowing ✅
-    - Decentralised Exchanges
-        - AMM
-        - order book based
-    - derivatives
-    - margin trading
-    - Insurance
+    - Decentralised Exchanges✅
+        - AMM✅
+        - order book based✅
+    - derivatives (lets skip this)
+    - margin trading (lets skip this)
+    - Insurance (lets skip this)
     - Oracles 🟡
 - DeFi Protocols (in this section we will not only explain but also interact with these protocols)
     - MakerDAO
