@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='bl101',
-      version='2.6',
+      version='2.7',
       description='Blockchain 101 Course',
       url='http://github.com/unpackAI/BL101',
       author='Dirk',
