@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='bl101',
-      version='2.7',
+      version='2.9',
       description='Blockchain 101 Course',
       url='http://github.com/unpackAI/BL101',
       author='Dirk',
@@ -12,7 +12,7 @@ setup(name='bl101',
       packages=['bl101'],
       
       zip_safe=False,
-      install_requires=['web3', 'py-solc-x', 'eth_tester', 'python-dotenv', 'graphviz', 'pytrends', 'seaborn', 'pandas', 'cryptocompare']
+      install_requires=['web3', 'py-solc-x', 'eth_tester', 'python-dotenv', 'graphviz', 'pytrends', 'seaborn', 'pandas', 'cryptocompare', 'uniswap-python==0.5.5']
       #install_requires=['web3', 'py-solc-x', 'eth_tester', 'yfinance', 'plotly', 'numpy', 'pandas', 'requests==2.23']
 
       )
