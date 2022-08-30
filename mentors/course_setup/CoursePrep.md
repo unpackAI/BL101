@@ -1,8 +1,10 @@
 ## Setup Wechat Group Notice
->You can use the **Group Notice** inside your Wechat Group to paste the following useful information (✏️ please adjust the Zoom-Meeting times):
+>You can use the **Group Notice** inside your `Wechat` Group to paste the following useful information (❗️ please adjust all times❗️):
+
 
 ```
-Group Notice
+G R O U P   N O T I C E 🎙 🔊
+
 Hi everyone.👏  
 Here some useful links: 
 
@@ -26,11 +28,11 @@ Week 5 (DAOs): https://bit.ly/3BpRZOl
 👉🏻 (At the end of every coursebook is a link to the workbook. Inside the workbook you can find instructions about the weekly deliverable.)
 
 GOOGLE DOCS SHEET:
-=================
+==================
 - 
 
 📺 ZOOM-RECORDINGS (LATEST):
-==========================
+===========================
 Kick-off Session: 
 Intro Presentation & NFT Preview:
 NFT Q&A:
@@ -44,8 +46,11 @@ DAO/Final Project presentation:
 ``` 
 
 
+>*More ...*   
+- Use *recurrent meetings* in `Zoom`: *👉🏻 for same weekly links*    
+- You can use [bitly.com](https://bitly.com) to shorten the links: *👉🏻 `Wechat` group notice has size limit* 
+- After inserting in `Wechat` group notice (and everytime you edit something), an "`@all`-notice" will be published
 
-You can use [bitly.com](https://bitly.com) to shorten the links *(because wechat group notice has a size limit)*.
 
 --- 
 
