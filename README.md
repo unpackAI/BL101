@@ -2,10 +2,11 @@
 # BL101
 ---  
 
-## Setup
-`pip install bl101==2.9`
+## About
+`Unpack AI BL101` is a 5-week long online bootcamp teaching you the basic knowledge about blockchain ecosystem.
 
 ## Usage
+### _If you are a Student_ 👩🏻‍🎓 ...   
 Choose a Course/Work Notebook from   
 - [Week 1: Hello Blockchain](course_notebooks/Week_1_Hello_Blockchain)
 - [Week 2: NFTs](course_notebooks/Week_2_Non-fungible_Tokens(NFTs))  
@@ -15,8 +16,14 @@ Choose a Course/Work Notebook from
 
 and open it in `Juypter` or `Google Colab`
 
+### _If you are a Mentor_ 👨‍🏫 ...   
+- 🚶🏾‍♂️ go to: [mentors/README.md](mentors/README.md)
+ 
+
 ---  
 ## Project Organization  
+### Setup   
+`pip install bl101==2.9`  
 ### Branching Strategy  
 No branching: only `main` branch:
 - developing  in /🏝Sandbox
