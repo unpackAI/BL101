@@ -1,0 +1,10 @@
+#### Example Timetable 📆
+
+|WEEK|DATES (EXAMPLE)|TOPIC|LEARNING OUTCOME|
+|--|--|--|--|
+|1|**Orientation Session**, 7 August (Sunday, 9 am)|Hello Blockchain World|Get to know more about your classmates, the mentors, and learn about the fundamental concepts of the Blockchain, how it works, and write your first smart contract.|
+|2|10 August (Wednesday, 7:30 pm) and 14 August (Sunday, 9 am)|Non-fungible Tokens (NFTs)|Learn more about Non-fungible Tokens (NFTs) and go through the protocols that make them unique and valuable. Create your own NFT collection, deploy it to a Testnet and view it on OpenSea.|  
+|3|17 August (Wednesday, 7:30 pm) and 21 August (Sunday, 9 am)|Decentralised Finance (DeFi)|Understand the major innovation behind DeFi, learn about the most popular DeFi protocols, and create your own cryptocurrency and DeFi project for others to interact with.|
+|4|24 August (Wednesday, 7:30 pm) and 28 August (Sunday, 9 am)|GameFi & SocialFi|Discover a new field in Blockchain that has experienced explosive growth and tapped into concepts such as play-to-earn that currently push the boundaries of blockchain technology application beyond finance. Integrate your own SocialFi project with your DeFi and NFT project.|  
+|5|31 August (Wednesday, 7:30 pm) and 4 September (Sunday, 9 am)|Decentralised Autonomous Organizations (DAOs) & Personal Project|Find out why DAOs are the industries standard as the governing entity for blockchain-based organizations and how they handle voting mechanisms and tokenomics to make the entire organization function. Go through the process of building your own DAO, and pitch your own Blockchain project to the class. Successfully graduate from the Bootcamp and receive your Blockchain certification.|
+||7 September|Demo Day|After a successful graduation, 4-5 speakers will be chosen to present their personal project to the unpack community. This is your chance to get people talking about your project and possibly find other ethusiasts to jointly make your project become reality.|
