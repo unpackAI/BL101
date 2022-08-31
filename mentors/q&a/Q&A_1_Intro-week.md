@@ -1,4 +1,6 @@
-# Coursebook 📗
+# General 🎲  
+# Coursebook 📗   
+# Workbook 👨‍💻  
 
 >### What is the difference between testnet and mainnet?
 **Mainnet** is just another term for the *real* blockchain. **Testnet** is a simulation of the mainnet. It behaves like the real blockchain and looks identically (also not all services are available). Blockchain developer can test their code on the testnet without paying gas.

@@ -1,6 +1,6 @@
-# Coursebook 📗
-
-# Workbook 👨‍💻
+# General 🎲  
+# Coursebook 📗   
+# Workbook 👨‍💻  
 
 ### We built three types of NFTs: *on-chain*, *off-chain*, *collectible*. Can you explain again the difference? 
 >It makes sense to distinguish between the NFT itself (a `solidity` smart contract with a specific contract address) and the asset the NFT refers to (a picture, a peace of art, a character in a game, etc.)
